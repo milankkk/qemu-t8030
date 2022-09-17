@@ -33,6 +33,7 @@ jobs:
 
       - name: Build qemu
         run: |
+          ls
           mkdir build
           cd build
           ../configure --target-list=aarch64-softmmu --disable-capstone --disable-slirp
