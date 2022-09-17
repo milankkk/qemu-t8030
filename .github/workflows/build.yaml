@@ -19,7 +19,7 @@ jobs:
 
       - name: Install lzfse
         run: |
-          git clone https://github.com/lzfse/lzfse
+          git clone --recursive https://github.com/lzfse/lzfse
           cd lzfse
           mkdir build
           cd build
